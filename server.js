@@ -4,6 +4,7 @@ const express = require("express")
 const morgan = require("morgan")
 const methodOverride = require("method-override")
 const mongoose = require("mongoose")
+const ejs = require("ejs");
 
 //create express app
 const app = express()
